@@ -17,6 +17,7 @@ import {
 import {
     ArrowForward,
 } from '@mui/icons-material'
+import BranchRoutSection from "@/components/spyss/BranchRoutSection.tsx";
 
 
 
@@ -34,13 +35,14 @@ const HeroSection: React.FC = () => {
             {/* pages */}
             <Box sx={{ py: 8, bgcolor: '#f9f9f9' }}>
                 <HomeHeader />
-                <BranchSearchSection />
+                <BranchRoutSection />
                 <AboutSection />
                 <CorePrinciplesSection />
                 <CoreSection />
                 <SpecialtiesSection />
                 <ActivitiesSection />
                 <ProgramsSection />
+                <BranchSearchSection />
                 <ReachUsSection />
 
             </Box>

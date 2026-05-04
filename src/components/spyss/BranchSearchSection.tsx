@@ -304,7 +304,7 @@ const BranchSearchSection: React.FC = () => {
     }
 
     return (
-        <Box
+        <Box id="branches"
             sx={{
                 py: 12,
                 background: '#f8fafc', // clean modern background
@@ -325,16 +325,16 @@ const BranchSearchSection: React.FC = () => {
                     Find Free Yoga Classes Near You
                 </Typography>
 
-                <Typography
-                    align="center"
-                    sx={{
-                        fontSize: '1.2rem',
-                        mb: 4,
-                        color: '#555',
-                    }}
-                >
-                    Begin your yoga journey — completely free, for life 🌿
-                </Typography>
+                {/*<Typography*/}
+                {/*    align="center"*/}
+                {/*    sx={{*/}
+                {/*        fontSize: '1.2rem',*/}
+                {/*        mb: 4,*/}
+                {/*        color: '#555',*/}
+                {/*    }}*/}
+                {/*>*/}
+                {/*    Begin your yoga journey — completely free, for life 🌿*/}
+                {/*</Typography>*/}
 
                 {/* ✨ SUBTLE GRADIENT BAR */}
                 <Box
@@ -358,9 +358,8 @@ const BranchSearchSection: React.FC = () => {
                     sx={{ mb: 6 }}
                 >
                     {[
-                        '100% Free Classes',
+                        'Free Classes',
                         'Lifetime Access',
-                        'Experienced Teachers',
                     ].map((item) => (
                         <Chip
                             key={item}

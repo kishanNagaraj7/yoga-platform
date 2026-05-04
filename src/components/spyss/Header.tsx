@@ -33,6 +33,7 @@ const Header: React.FC = () => {
     { text: 'Activities', id: 'activities' },
     { text: 'Programs', id: 'programs' },
     { text: 'Branches', id: 'branches' },
+
   ]
 
   const scrollToSection = (id: string) => {

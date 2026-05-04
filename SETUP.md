@@ -32,7 +32,7 @@ Once Node.js is installed:
 
 1. **Navigate to project directory**:
    ```bash
-   cd "c:\Users\Kishan\OneDrive\Documents\spyss project\yoga-platform"
+   cd "C:\project\yoga-platform"
    ```
 
 2. **Install dependencies**:
